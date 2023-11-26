@@ -1,1 +1,65 @@
-Settings in JASP and data used for a Bayesian re-analysis of the intention-to-treat analyses of the INCEPTION-trial:Extracorporeal life support in cardiac arrest: a post hoc Bayesian re-analysis of the INCEPTION trial Samuel Heuts, Anina F van de Koolwijk, Andrea Gabrio, Johannes F H Ubben, Iwan C C van der Horst, Thijs S R Delnoij, Martje M Suverein, Jos G Maessen, Roberto Lorusso, Marcel C G van de Poll To prepare in SPSS-file:30-day neurologically favorable survival outcomes:ECPR: 14/70CCPR: 10/626-month neurologically favorable survival outcomes:ECPR: 14/70CCPR: 10/63Import file in:JASP (Jeffrey’s Amazing Statistics Program) Version 0.17.3 (Intel, Mac, https://jasp-stats.org/), Amsterdam University, Amsterdam, the Netherlands.Frequencies -> Bayesian A/B testUse previously prepared groups for successes and sample size group 1, successes and sample size group 2.30-day survival with favorable neurological outcome:Minimally informative prior:Bayes factor: BF10Normal prior on log OR: mean (0), SD (log RR 2) – convert log RR 2 to log OR scalePrior and posterior: Relative risk, and afterwards absolute riskSkeptical prior:Bayes factor: BF10Normal prior on log OR: mean (0), SD (0.379) – convert log RR  to log OR scalePrior and posterior: Relative risk, and afterwards absolute riskInformative prior I:Bayes factor: BF10Normal prior on log OR: mean (0.215), converted from log RR 0.167, SD (0.139) – converted from log RR 0.109Prior and posterior: Relative risk, and afterwards absolute riskInformative prior II:Bayes factor: BF10Normal prior on log OR: mean (0.687), converted from log RR 0.522, SD (0.298) – converted from log RR 0.229Prior and posterior: Relative risk, and afterwards absolute risk6-month surival with favorable neurological outcome:Minimally informative prior:Bayes factor: BF10Normal prior on log OR: mean (0), SD (log RR 2) – convert log RR 2 to log OR scalePrior and posterior: Relative risk, and afterwards absolute riskSkeptical prior:Bayes factor: BF10Normal prior on log OR: mean (0), SD (0.379) – convert log RR  to log OR scalePrior and posterior: Relative risk, and afterwards absolute riskInformative prior I:Bayes factor: BF10Normal prior on log OR: mean (0.650), converted from log RR 0.581, SD (0.195) – converted from log RR 0.175Prior and posterior: Relative risk, and afterwards absolute riskInformative prior II:Bayes factor: BF10Normal prior on log OR: mean (0.488), converted from log RR 0.359, SD (0.286) – converted from log RR 0.211Prior and posterior: Relative risk, and afterwards absolute risk
+Settings in JASP and data used for a Bayesian re-analysis of the intention-to-treat analyses of the INCEPTION-trial:
+
+Extracorporeal life support in cardiac arrest: a√äpost hoc√äBayesian re-analysis of the INCEPTION trial√ä
+Samuel Heuts,√äAnina F van de Koolwijk,√äAndrea Gabrio,√äJohannes F H Ubben,√äIwan C C van der Horst,√äThijs S R Delnoij,√äMartje M Suverein,√äJos G Maessen,√äRoberto Lorusso,√äMarcel C G van de Poll√ä
+
+To prepare in SPSS-file:
+30-day neurologically favorable survival outcomes:
+ECPR: 14/70
+CCPR: 10/62
+
+6-month neurologically favorable survival outcomes:
+ECPR: 14/70
+CCPR: 10/63
+
+Import file in:
+JASP (Jeffrey√ïs Amazing Statistics Program) Version 0.17.3 (Intel, Mac, https://jasp-stats.org/), Amsterdam University, Amsterdam, the Netherlands.
+
+Frequencies -> Bayesian A/B test
+Use previously prepared groups for successes and sample size group 1, successes and sample size group 2.
+
+30-day survival with favorable neurological outcome:
+
+Minimally informative prior:
+Bayes factor: BF10
+Normal prior on log OR: mean (0), SD (log RR 2) √ê convert log RR 2 to log OR scale
+Prior and posterior: Relative risk, and afterwards absolute risk
+
+Skeptical prior:
+Bayes factor: BF10
+Normal prior on log OR: mean (0), SD (0.379) √ê convert log RR  to log OR scale
+Prior and posterior: Relative risk, and afterwards absolute risk
+
+Informative prior I:
+Bayes factor: BF10
+Normal prior on log OR: mean (0.215), converted from log RR 0.167, SD (0.139) √ê converted from log RR 0.109
+Prior and posterior: Relative risk, and afterwards absolute risk
+
+Informative prior II:
+Bayes factor: BF10
+Normal prior on log OR: mean (0.687), converted from log RR 0.522, SD (0.298) √ê converted from log RR 0.229
+Prior and posterior: Relative risk, and afterwards absolute risk
+
+
+6-month surival with favorable neurological outcome:
+
+Minimally informative prior:
+Bayes factor: BF10
+Normal prior on log OR: mean (0), SD (log RR 2) √ê convert log RR 2 to log OR scale
+Prior and posterior: Relative risk, and afterwards absolute risk
+
+Skeptical prior:
+Bayes factor: BF10
+Normal prior on log OR: mean (0), SD (0.379) √ê convert log RR  to log OR scale
+Prior and posterior: Relative risk, and afterwards absolute risk
+
+Informative prior I:
+Bayes factor: BF10
+Normal prior on log OR: mean (0.650), converted from log RR 0.581, SD (0.195) √ê converted from log RR 0.175
+Prior and posterior: Relative risk, and afterwards absolute risk
+
+Informative prior II:
+Bayes factor: BF10
+Normal prior on log OR: mean (0.488), converted from log RR 0.359, SD (0.286) √ê converted from log RR 0.211
+Prior and posterior: Relative risk, and afterwards absolute risk
+
